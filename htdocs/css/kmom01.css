@@ -14,3 +14,26 @@
 .rm-navbar-max {
     display: none;
 }
+
+html {
+    background-color: blue;
+}
+
+body {
+    background-color: white;
+}
+
+.wrap-all {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: seashell;;
+}
+
+.site-logo {
+    display: none;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+}

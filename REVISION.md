@@ -1,7 +1,7 @@
 Revision history
 ================
 
-v1.0.0 (2018-11-21)
+v1.0.1 (2018-11-23)
 -------------------
 
-* Adding revision history and license.
+* Adding block content: byline and a note on jump-smash, images: flash-image, favicon, links to design-course webb and github, this webbsite and its repo on github, links to utility sites in footer, some style also added.

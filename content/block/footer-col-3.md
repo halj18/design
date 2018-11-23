@@ -1,3 +1,8 @@
-#### Footer col 3
+### Kodstandarder
+[dbwebb-kodstandard javascript](https://www.npmjs.com/package/javascript-style-guide)
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+[HTML5.2](https://www.w3.org/TR/html52/)
+
+[CSS](https://www.w3.org/TR/CSS/#css)
+
+[Cheatsheet](https://www.w3.org/2009/cheatsheet/)

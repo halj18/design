@@ -1,25 +1,64 @@
 ---
 title: "Min fina titel"
+views:
+    jump-smash:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-jump-smash
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
 Min me-sida i kursen design
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/hans.jpg?w=218" class="right" caption="Bild på Hans"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Detta är halj18's me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Jag lånar min egen tidigare presentation, kanske kommer den i nytt ljus här.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Om Hans Ljungberg
+=================
+>Arbetat mest som bibliotekarie och biblioteksassistent på högskole- och
+specialbibliotek. Sedan 2011 på Statistiska centralbyråns bibliotek, bl.a.
+med digitalisering av [historisk statistik](http://www.scb.se/sv_/Hitta-statistik/Historisk-statistik/).
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+*Några tidiga datorerfarenheter:* Första mötet med en dator
+var mycket kort på gymnasiet. Under extrajobb gjort tillägg till ett elevdataregister
+i Basic på en ABC80. Den första egna dator var en Mac Plus med diskettenhet.
+Senare mest PC-baserat med olika Microsoft OS. Återanvänt äldre PC med linux
+RedHat som webbterminaler för biblioteksbesökares Librissökningar.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+*Musik* Tidigare mest klassisk musik, ganska flitig konstertbesökare,
+orkestermusik, opera, kammarmusik och solister. Musikvetenskapliga studier.
+Numer är det mest blues som gäller - både då jag lyssnar, live eller inspelningar,
+eller spelar själv. Piano är huvudinstrument men jag försöker mig även på gitarr
+och munspel.
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
+*Bilar* Ett passivt intresse från tidiga tonåren som aktiverades
+med körkortet och den första egna bilen. Läser om den egna bilen och försöker
+göra enklare underhåll själv. Brukar besöka bilmuséer om de kommer i resans
+väg. Bilprogram på TV som TopGear, klassiska bilar, Jay Leno's garage, och
+motorsport i form av WRC och F1.
 
-Vi syns och hörs i forum och chatt!
+*Resor* Väljer oftast att köra mindre vägar. Några fina resor
+med egen bil i Norden, och en längre mini-grand tour över Danmark, Tyskland,
+Österrike, Schweiz, Italien, Frankrike. Annars blir  det hyrbil som i Portugal,
+Spanien, Skottland, Wales, England, Kalifornien, Hawaii, Australien.
 
-/Mikael
+*Träning* Försöker hålla mig i form med styrketräning och
+löpning (snarare joggning) eller badminton.
+
+*Båt och skärgård* Tycker om att vara på sjön, men har ingen
+egen båt, åker tacksamt med andra eller på passagerarbåt.
