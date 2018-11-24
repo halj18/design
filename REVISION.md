@@ -1,7 +1,7 @@
 Revision history
 ================
 
-v1.0.1 (2018-11-23)
+v1.0.2 (2018-11-24)
 -------------------
 
-* Adding block content: byline and a note on jump-smash, images: flash-image, favicon, links to design-course webb and github, this webbsite and its repo on github, links to utility sites in footer, some style also added.
+* Replacing default style to Kmom01 and building that by borrowing from the former default-style. Addng one image and removing unused images. Adding som more textual content.
