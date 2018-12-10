@@ -1,0 +1,35 @@
+/**
+ * Layout for responsive style through media queries. 181130 put my own values, wider due to wider default width.
+ */
+
+@media screen and (max-width: 1500px) {
+    .site-logo {
+        display: none;
+    }
+}
+
+/**
+* navbar
+*/
+@media screen and (max-width: 1256px) {
+    .rm-desktop a {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
+
+@media screen and (max-width: 1016px) {
+    .region-header-col-1,
+    .region-header-col-3 {
+        width: 15%;
+    }
+    .region-header-col-2 {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .rm-desktop {
+        display: none;
+    }
+}

@@ -1,0 +1,65 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables. 181201 Test to define golden mean, to use on at least one subpage.
+ */
+@gm: (sqrt(5)-1)/2;
+@headoutercol: (1-@gm)/2;
+ /**
+  * Header layout
+  */
+.outer-wrap-header {
+  background: linear-gradient(to top, #98acbf, #789ac3, #577fb2, #486ba1);
+  // Four samples from Empty Quarters, from above couds to top.
+  //overflow:auto;
+  .clearfix();
+}
+
+ .inner-wrap-header {
+     max-width: 100%;
+  }
+
+.region-header-col-1,
+.region-header-col-3 {
+    //width: 20%;
+    width: 19%; // fallback
+    width: percentage(@headoutercol);
+    float: left;
+}
+
+.region-header-col-2 {
+    //width: 60%;
+    width: 62%; //fallback
+    width: percentage(@gm);
+    float: left;
+    text-align: center;
+}
+
+/**
+ * Special: golden mean between main and one single sidebar, left or right.
+ */
+.region-main.has-sidebar {
+    width: percentage(@gm);
+}
+
+.region-sidebar-left, .region-sidebar-right {
+    width: 100%-percentage(@gm);
+    float: left;
+}
+
+/**
+ * Footer layout
+ */
+
+.outer-wrap-footer,
+.inner-wrap-footer {
+     background-color: #254a7f; // Sample Empty Quarters top right, dark blue above wing.
+     color: #dcdad5; // Sample Empty Quarters, lighter cloud, bottom left quadrant.
+ }
+
+.inner-wrap-footer a {
+    color: lightblue;
+}

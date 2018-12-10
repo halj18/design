@@ -29,7 +29,7 @@ Om
 
 Skrivet i markdown i filen `content/om.md`.
 
-Skriv några kloka ord om kursen?
+Här finns goda möjligheter att lära från exempel via det använda ramverket, när det gäller strukturering av CSS/LESS, och sätt att utforma sidor och göra dem responsiva. Ramverket är mycket omfattande i antal filer och kataloger. Vi introduceras till många verktyg, där några används för att underlätta användningen av andra (se vidare exempel på vertygssidan).  
 
 Lägg till en representativ bild för kursen.
 
